@@ -1619,9 +1619,9 @@
     "restore": {
       "projectUniqueName": "Robot6_ScreenScrapingOCR",
       "projectName": "Robot6_ScreenScrapingOCR",
-      "projectPath": "D:\\Oludare Oluwajuyitan\\Documents\\UiPath\\Robot6_ScreenScrapingOCR\\.local",
+      "projectPath": "D:\\Oludare Oluwajuyitan\\Documents\\GitHub\\RPA-Robot-OCR\\.local",
       "packagesPath": "C:\\Users\\oludare\\.nuget\\packages\\",
-      "outputPath": "D:\\Oludare Oluwajuyitan\\Documents\\UiPath\\Robot6_ScreenScrapingOCR\\.local"
+      "outputPath": "D:\\Oludare Oluwajuyitan\\Documents\\GitHub\\RPA-Robot-OCR\\.local"
     },
     "frameworks": {
       "net461": {
