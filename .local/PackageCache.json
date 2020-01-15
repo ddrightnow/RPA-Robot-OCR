@@ -108,6 +108,20 @@
         "C:\\Users\\oludare\\.nuget\\packages\\uipath.vision/1.8.1\\lib/net452/UiPath.Vision.Tesseract.dll",
         "C:\\Users\\oludare\\.nuget\\packages\\uipath.vision/1.8.1\\lib/net452/UiPath.Vision.dll"
       ]
+    },
+    {
+      "Package": {
+        "Id": "UiPath.PDF.Activities",
+        "Version": "3.1.0"
+      },
+      "Assemblies": [
+        "C:\\Users\\oludare\\.nuget\\packages\\bitmiracle.docotic.pdf/5.10.9957\\lib/net40/BitMiracle.Docotic.Pdf.dll",
+        "C:\\Users\\oludare\\.nuget\\packages\\system.valuetuple/4.5.0\\lib/net461/System.ValueTuple.dll",
+        "C:\\Users\\oludare\\.nuget\\packages\\uipath.ocr.contracts/2.2.1\\lib/net45/UiPath.OCR.Contracts.dll",
+        "C:\\Users\\oludare\\.nuget\\packages\\uipath.pdf.activities/3.1.0\\lib/net461/UiPath.PDF.Activities.Design.dll",
+        "C:\\Users\\oludare\\.nuget\\packages\\uipath.pdf.activities/3.1.0\\lib/net461/UiPath.PDF.Activities.dll",
+        "C:\\Users\\oludare\\.nuget\\packages\\uipath.pdf.activities/3.1.0\\lib/net461/UiPath.PDF.dll"
+      ]
     }
   ],
   "Conflicts": [],
@@ -115,6 +129,11 @@
     "AvalonEdit": {
       "Id": "AvalonEdit",
       "Version": "5.0.3",
+      "Dependencies": []
+    },
+    "BitMiracle.Docotic.Pdf": {
+      "Id": "BitMiracle.Docotic.Pdf",
+      "Version": "5.10.9957",
       "Dependencies": []
     },
     "BouncyCastle": {
@@ -273,6 +292,24 @@
       "Id": "UiPath.OCR.Contracts",
       "Version": "2.2.1",
       "Dependencies": []
+    },
+    "UiPath.PDF.Activities": {
+      "Id": "UiPath.PDF.Activities",
+      "Version": "3.1.0",
+      "Dependencies": [
+        {
+          "Item1": "UiPath.OCR.Contracts",
+          "Item2": "[1.0.0, )"
+        },
+        {
+          "Item1": "System.ValueTuple",
+          "Item2": "[4.5.0, )"
+        },
+        {
+          "Item1": "BitMiracle.Docotic.Pdf",
+          "Item2": "[5.10.9957, )"
+        }
+      ]
     },
     "UiPath.System.Activities": {
       "Id": "UiPath.System.Activities",
